@@ -7,7 +7,7 @@ about:
   head: 45255fe
   archived: false
   latestVersion: v1.0.0
-  collectedAt: 2026-09-04T19:19:41Z
+  collectedAt: 2026-09-04T21:13:05Z
 timeline:
   created: 2024-03-29
   lastCommit: 2026-06-07
@@ -80,5 +80,33 @@ total:
   openIssue: 2
   commit: 96
 ---
+path: /home/runner/.x-repo/github.com/dhth/prs
+collectedAt: 2026-09-04T21:13:06Z
+loc:
+  Go:
+    code: 2853
+    comments: 15
+    blanks: 425
+    files: 22
+  Json:
+    code: 203
+    comments: 0
+    blanks: 0
+    files: 1
+  Yaml:
+    code: 10
+    comments: 1
+    blanks: 1
+    files: 2
+  Markdown:
+    code: 0
+    comments: 242
+    blanks: 106
+    files: 3
+total:
+  code: 3099
+  comments: 263
+  blanks: 537
+  files: 28
 ---
 
