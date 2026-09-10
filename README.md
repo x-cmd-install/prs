@@ -1,24 +1,64 @@
 # prs
 
+[中文版本](./README.cn.md)
+
 Stay updated on PRs from your terminal
 
-- **Upstream**: <https://github.com/dhth/prs>
-- **Homepage**: <https://tools.dhruvs.space/prs>
-- **Latest release**: `v1.0.0` (2024-08-02)
-- **Last commit**: 2026-06-07
-- **License**: MIT
-- **Stars**: 184 · **Forks**: 2 · **Open issues**: 4 · **Contributors**: 2
+![prs](https://repo.x-cmd.io/prs.svg)
 
-## Installation
+## Install
 
 ```sh
 x install prs
 ```
 
-See <https://x-cmd.com/install/prs> for details.
+## Source
 
-## Data
+- **Upstream**: <https://github.com/dhth/prs>
+- **Homepage**: <https://tools.dhruvs.space/prs>
+- **License**: MIT
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
+## Release
 
-_Last regenerated: 2026-09-09T19:29:32Z._
+- **Latest**: `v1.0.0` (2024-08-02)
+- **Last commit**: 2026-06-07
+- **Assets in release**: 8
+- **Published**: 2024-08-02T16:56:42Z
+
+## Popularity
+
+- **Stars**: 184 · **Forks**: 2 · **Open issues**: 4 · **Contributors**: 2
+
+## Totals (cumulative)
+
+- **Releases**: 5 · **Merged PRs**: 53 · **Open PRs**: 0 · **Closed issues**: 2 · **Open issues**: 2 · **Commits**: 96
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-15 | 0 | 30 | 0 | 0 | 0 | 32 |
+
+## Code size
+
+Total: **3,066** lines of code across **28** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Go | 2,853 | 15 | 425 | 22 |
+| Json | 203 | 0 | 0 | 1 |
+| Yaml | 10 | 1 | 1 | 2 |
+| Markdown | 0 | 242 | 106 | 3 |
+
+## Improve this data
+
+Install metadata for prs lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `prs` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+
+- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
+- **Edit the package entry**: <https://github.com/x-cmd/edit/main/prs.yml> (or whichever path the index uses)
+
+The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+
+_Snapshot: `data/card/260910.yml` · 2026-09-10T04:50:02Z._
