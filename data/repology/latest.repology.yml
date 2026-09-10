@@ -1,0 +1,321 @@
+- repo: aur
+  srcname: prs
+  binname: prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2-1
+  status: outdated
+  summary: Secure, fast & convenient password manager CLI using GPG and git to sync
+  maintainers:
+    - murlakatamenka@aur
+  licenses:
+    - GPL3
+- repo: aur
+  srcname: prs-git
+  binname: prs-git
+  visiblename: prs-git
+  version: 0.5.0.r0.ga94a362
+  origversion: 0.5.0.r0.ga94a362-1
+  status: rolling
+  summary: Secure, fast & convenient password manager CLI using GPG and git to sync (git)
+  maintainers:
+    - orhun@aur
+    - timvisee@aur
+  licenses:
+    - GPL3
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-3
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-9
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-9
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-9
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - misc
+- repo: homebrew
+  srcname: prs
+  visiblename: prs
+  version: 0.5.8
+  origversion: null
+  status: newest
+  summary: Secure, fast & convenient password manager CLI with GPG & git sync
+- repo: kali_rolling
+  subrepo: main
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-9
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - misc
+- repo: nix_stable_24_05
+  srcname: prs
+  visiblename: prs
+  version: 0.5.1
+  origversion: null
+  status: outdated
+  summary: Secure, fast & convenient password manager CLI using GPG and git to sync
+  maintainers:
+    - rschuetz17@gmail.com
+  licenses:
+    - LGPL-3.0-only
+    - GPL-3.0-only
+- repo: nix_stable_24_11
+  srcname: prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: null
+  status: outdated
+  summary: Secure, fast & convenient password manager CLI using GPG and git to sync
+  maintainers:
+    - rschuetz17@gmail.com
+  licenses:
+    - LGPL-3.0-only
+    - GPL-3.0-only
+- repo: nix_stable_25_05
+  srcname: prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: null
+  status: outdated
+  summary: Secure, fast & convenient password manager CLI using GPG and git to sync
+  maintainers:
+    - cole.mickens@gmail.com
+  licenses:
+    - LGPL-3.0-only
+    - GPL-3.0-only
+- repo: nix_stable_25_11
+  srcname: prs
+  visiblename: prs
+  version: 0.5.4
+  origversion: null
+  status: outdated
+  summary: Secure, fast & convenient password manager CLI using GPG and git to sync
+  maintainers:
+    - cole.mickens@gmail.com
+  licenses:
+    - LGPL-3.0-only
+    - GPL-3.0-only
+- repo: nix_stable_26_05
+  srcname: prs
+  visiblename: prs
+  version: 0.5.6
+  origversion: null
+  status: outdated
+  summary: Secure, fast & convenient password manager CLI using GPG and git to sync
+  maintainers:
+    - cole.mickens@gmail.com
+  licenses:
+    - LGPL-3.0-only
+    - GPL-3.0-only
+- repo: nix_unstable
+  srcname: prs
+  visiblename: prs
+  version: 0.5.7
+  origversion: null
+  status: outdated
+  summary: Secure, fast & convenient password manager CLI using GPG and git to sync
+  maintainers:
+    - cole.mickens@gmail.com
+  licenses:
+    - LGPL-3.0-only
+    - GPL-3.0-only
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-3
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-3
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-3
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-3
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-9
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - misc
+- repo: scoop
+  subrepo: main
+  binname: prs
+  visiblename: prs
+  version: 0.5.1
+  origversion: null
+  status: outdated
+  licenses:
+    - GPL-3.0-only
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-3
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-5
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-7
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-9
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: prs
+  binname: prs
+  visiblename: prs
+  version: 0.5.7
+  origversion: 0.5.7_1
+  status: outdated
+  summary: Pass compatible password manager written in Rust
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - GPL-3.0-only
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: prs
+  binname: prs-gtk3
+  visiblename: prs-gtk3
+  version: 0.5.7
+  origversion: 0.5.7_1
+  status: outdated
+  summary: GTK3 frontend for prs
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - GPL-3.0-only
