@@ -1,16 +1,29 @@
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
+- repo: debian_unstable
+  subrepo: sid/main
   srcname: prs
   binnames:
     - prs
   visiblename: prs
   version: 0.5.2
-  origversion: 0.5.2+dfsg-3
+  origversion: 0.5.2+dfsg-9
   status: outdated
   maintainers:
     - werdahias@debian.org
   categories:
-    - universe/misc
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-9
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - misc
 - repo: aur
   srcname: prs
   binname: prs
@@ -23,15 +36,6 @@
     - murlakatamenka@aur
   licenses:
     - GPL3
-- repo: scoop
-  subrepo: main
-  binname: prs
-  visiblename: prs
-  version: 0.5.1
-  origversion: null
-  status: outdated
-  licenses:
-    - GPL-3.0-only
 - repo: aur
   srcname: prs-git
   binname: prs-git
@@ -60,32 +64,6 @@
     - misc
 - repo: debian_14
   subrepo: forky/main
-  srcname: prs
-  binnames:
-    - prs
-  visiblename: prs
-  version: 0.5.2
-  origversion: 0.5.2+dfsg-9
-  status: outdated
-  maintainers:
-    - werdahias@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: prs
-  binnames:
-    - prs
-  visiblename: prs
-  version: 0.5.2
-  origversion: 0.5.2+dfsg-9
-  status: outdated
-  maintainers:
-    - werdahias@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
   srcname: prs
   binnames:
     - prs
@@ -190,7 +168,7 @@
     - LGPL-3.0-only
     - GPL-3.0-only
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: prs
   binnames:
     - prs
@@ -203,7 +181,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: prs
   binnames:
     - prs
@@ -254,6 +232,28 @@
     - werdahias@debian.org
   categories:
     - misc
+- repo: scoop
+  subrepo: main
+  binname: prs
+  visiblename: prs
+  version: 0.5.1
+  origversion: null
+  status: outdated
+  licenses:
+    - GPL-3.0-only
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-3
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - universe/misc
 - repo: ubuntu_25_10
   subrepo: questing/universe
   srcname: prs
@@ -282,6 +282,19 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: prs
+  binnames:
+    - prs
+  visiblename: prs
+  version: 0.5.2
+  origversion: 0.5.2+dfsg-9
+  status: outdated
+  maintainers:
+    - werdahias@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: prs
   binnames:
     - prs
