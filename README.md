@@ -47,12 +47,12 @@ Total: **3,066** lines of code across **28** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 1 | 0 | 0 | 0 | 1 |
-| last60d | 2026-09-26 | 0 | 2 | 0 | 0 | 0 | 2 |
-| 90d | 2026-08-27 | 0 | 2 | 0 | 0 | 0 | 3 |
-| last180d | 2026-05-29 | 0 | 4 | 0 | 0 | 0 | 7 |
-| 360d | 2025-11-30 | 0 | 24 | 0 | 0 | 0 | 24 |
-| last720d | 2024-12-05 | 0 | 47 | 0 | 1 | 1 | 58 |
+| 30d | 2026-10-27 | 0 | 1 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-27 | 0 | 2 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-28 | 0 | 2 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-30 | 0 | 4 | 0 | 0 | 0 | 0 |
+| 360d | 2025-12-01 | 0 | 22 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-06 | 0 | 47 | 0 | 1 | 1 | 58 |
 
 ## Release assets
 
@@ -67,20 +67,6 @@ Total: **3,066** lines of code across **28** files in the top 5 languages.
 | [prs_1.0.0_linux_amd64.tar.gz](https://github.com/dhth/prs/releases/download/v1.0.0/prs_1.0.0_linux_amd64.tar.gz) | 5.6 MiB | `native/linux/x64` |
 | [prs_1.0.0_linux_arm64.tar.gz](https://github.com/dhth/prs/releases/download/v1.0.0/prs_1.0.0_linux_arm64.tar.gz) | 5.2 MiB | `native/linux/arm64` |
 
-## Distribution status
-
-Reported by **27** distros on [repology.org](https://repology.org/project/prs). **1** are ✅ on the latest upstream release, **25** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.5.2` | ⚠️ outdated |
-| Debian 14 | `0.5.2` | ⚠️ outdated |
-| Debian 13 | `0.5.2` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.5.2` | ⚠️ outdated |
-| Homebrew | `0.5.9` | ✅ latest |
-| Nix unstable | `0.5.7` | ⚠️ outdated |
-| Void | `0.5.7` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for prs lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `prs` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -90,4 +76,4 @@ Install metadata for prs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T08:30:51Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T08:36:11Z._
